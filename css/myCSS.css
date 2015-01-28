@@ -7,3 +7,43 @@
     /*background: url(http://link-to-your/image.jpg) no-repeat;*/
     border: 1px solid white;
 }
+
+.music-player { 
+    position:fixed; 
+    bottom:0; 
+    z-index:10; 
+    opacity: 0.4; 
+    filter:alpha(opacity=40);
+}
+.music-player:hover {
+    opacity: 1.0; 
+    filter: alpha(opacity=100);
+}
+
+.gain-bottom { 
+    margin-bottom: 100px;
+}
+
+.gain-top { 
+    margin-top: 100px;
+}
+
+.reduce-top { 
+    margin-top: -150px;
+}
+
+.img-responsive { 
+    border: 1px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+  .btn {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .btn {
+    font-size: 10px;
+  }
+}
