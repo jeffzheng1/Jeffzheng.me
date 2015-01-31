@@ -4,7 +4,6 @@
     border-radius: 155px;
     -webkit-border-radius: 155px;
     -moz-border-radius: 155px;
-    /*background: url(http://link-to-your/image.jpg) no-repeat;*/
     border: 1px solid white;
 }
 
@@ -25,7 +24,7 @@
 }
 
 .gain-top { 
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .reduce-top { 
