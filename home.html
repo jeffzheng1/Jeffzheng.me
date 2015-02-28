@@ -1,448 +1,640 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<title>Jeff Zheng</title>
 
-    <title>Jeff Zheng</title>
+	<!-- CSS -->
+	<link rel="shortcut icon" href="http://faviconist.com/icons/89498b049215090886b0434864827f46/favicon.ico" />
 
-    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap core CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
-    <link rel="shortcut icon" href="img/ico/favicon.ico">
+	<!-- Owl Carousel -->
 
-    <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
-    <link href="css/myCSS.css" rel="stylesheet">
+	<!-- Magnific-popup lightbox -->
+	<link href="assets/css/magnific-popup.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<!-- Simple text rotator -->
+	<link href="assets/css/simpletextrotator.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<!-- Font Awesome CSS -->
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+
+	<!-- Animate css -->
+	<link href="assets/css/animate.css" rel="stylesheet">
+
+	<!-- Custom styles CSS -->
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+	<link href="assets/css/freelancer.css" rel="stylesheet" media="screen">
 
 </head>
+<body>
 
-<body id="page-top" class="index">
+	<div class="wrapper">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                
-            </div>
+		<!-- Preloader -->
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="page-scroll">
-                        <a href="#page-top">Home</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Projects</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#music">Music</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About Me</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+		<div id="preloader">
+			<div id="status">
+				<div class="status-mes"><h4>Loading...</h4></div>
+			</div>
+		</div>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive pic" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">Jeff Zheng</span>
-                        <hr class="star-light">
-                        <span class="skills">Software Engineer - Entrepreneur - Music Producer*</span>
-                        <p style="font-size:10px">*My website is better with music. Click <a class="music-player-btn" style="color:#2c3e50;">here</a> to listen.</p>
-                    </div>
-                </div>
-                 <div class="col-md-4 col-xs-12">
-                    <a href="http://soundcloud.com/jeff-zheng" target="_blank" type="button" class="btn btn-primary btn-lg btn-block" style="margin:20px 0px 0px 0px;">SoundCloud</a>
-                </div>
-                <div class="col-md-4 col-xs-12">
-                    <a href="JeffZhengResume.pdf" target="_blank" type="button" class="btn btn-primary btn-lg btn-block" style="margin:20px 0px 0px 0px;">Resume</a>
-                </div>
-                <div class="col-md-4 col-xs-12">
-                    <a href="http://github.com/jeffzheng1" target="_blank" type="button" class="btn btn-primary btn-lg btn-block" style="margin:20px 0px 0px 0px;">Github</a>
-                </div>
+		<!-- Navigation start -->
 
-            </div>
-        </div>
-    </header>
-    
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Projects</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/festiv.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/bst.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/bribecaster.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/algovision.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img style="height:225px; width:400px" src="img/portfolio/seedit.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/californiarecs.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+		<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+			<div class="container">
 
-    <section class="gain-bottom reduce-top" id="music">
-        <div class="container">
-            <div class="row">
-                <div class="row gain-top">
-                <div class="col-lg-12 text-center">
-                    <h2>Music</h2>
-                    <hr class="star-primary">
-                </div>
-                <div class="col-md-4 col-xs-12 text-center">
-                    <iframe width="350px" height="300px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/135575669&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-                </div>
-                <div class="col-md-4 col-xs-12 text-center">
-                    <iframe width="350px" height="300px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/96489186&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-                </div>
-                <div class="col-md-4 col-xs-12 text-center">
-                    <iframe width="350px" height="300px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/82416294&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-                </div>
-                </div>
-            </div>
-        </div>
-    </section>
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Jeff Zheng</a>
+				</div>
 
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container gain-bottom">
-            <div class="row">
-                <div class="col-lg-12 text-center gain-top">
-                    <h2>About Me</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row ">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <p>Hi! My name is Jeff and I am a student at UC Berkeley pursuing a degree in Computer Science. I am currently developing a dashboard to collect information about Indian citizen-government interaction and an Android application to improve the efficiency of private gardens. I also produce electronic music on the side and am interested in creating software to auto-mix dance music.</p> 
-                    <p> If you want to contact me, fill free to email me at jeff.zheng AT berkeley DOT edu.</p>
-                    <p>You can see the source code for this website <a href="http://github.com/jeffzheng1/jeffzheng.me"  style="color:#2c3e50;">here</a> on my Github.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="music-player">
-    </div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#intro">home</a></li>
+						<li><a href="#profile">Profile</a></li>
+						<li><a href="#resume">Resume</a></li>
+						<li><a href="#portfolio">Projects</a></li>
+						<li><a href="#music">Music</a></li>
+					</ul>
+				</div>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-   <!--  <div class="scroll-top page-scroll visible-xs visble-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
- -->
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Festiv</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/festiv.png" class="img-responsive img-centered" alt="">
-                            <p>Festiv is a website I developed that uses SoundCloud’s API to deliver EDM music to users without the hassle of searching through albums or playlists by using curated playlists and learning user preferences. Deployed using Django and mySQL.</p>
-                            <ul class="list-inline item-details">
-                                <li>Demo:
-                                    <strong><a href="http://festiv.me">http://festiv.me</a>
-                                    </strong>
-                                </li>
-                                <li>Repo:
-                                    <strong><a href="http://github.com/jeffzheng1/Festiv">http://github.com/jeffzheng1/Festiv</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Beautiful Search Trees</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/bst.png" class="img-responsive img-centered" alt="">
-                            <p>Web application I developed to help students learn the insertion, deletion, and search methods of popular tree data structures through animation done in D3.</p>
-                            <ul class="list-inline item-details">
-                                <li>Demo:
-                                    <strong><a href="http://beautifulsearchtrees.herokuapp.com">http://beautifulsearchtrees.herokuapp.com</a>
-                                    </strong>
-                                </li>
-                                <li>Repo:
-                                    <strong><a href="http://github.com/jeffzheng1/BeautifulSearchTrees">http://github.com/jeffzheng1/BeautifulSearchTrees</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Bribecaster</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/bribecaster.png" class="img-responsive img-centered" alt="">
-                            <p>Research project done in conjunction with Berkeley’s CS and Public Policy Department to analyze corruption in India and create actionable data for government usage. I created back-end models for storing citizen data and developed the dashboard interface using various data visualization packages.</p>
-                            <ul class="list-inline item-details">
-                                <li>Repo:
-                                    <strong><a href="http://github.com/maxwolffe/Bribecaster">http://github.com/maxwolffe/Bribecaster</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>AlgoVision & the 164 Language</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/algovision.png" class="img-responsive img-centered" alt="">
-                            <p>Web application that I built that visualizes the call stack of algorithms written in 164, an object oriented computer language my team created throughout the Fall 2014 semester for my programming language class. It uses the Wolfram API to analyze the approximate runtime of a function from the structure of the call stack and plots the runtime function on a graph. </p>
-                            <ul class="list-inline item-details">
-                                <li>Repo:
-                                    <strong><a href="http://github.com/jeffzheng1/algovision">http://github.com/jeffzheng1/algovision</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>SeedIt</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/seedit.png" class="img-responsive img-centered" alt="">
-                            <p>A garden planning Android application being developed for the Citris Mobile App Challenge. Users receive custom data based on location, time, and weather to provide optimal data for a successful harvest. I am designing the human user interface for the product.</p>
-                            <ul class="list-inline item-details">
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>California Records</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/californiarecs.png" class="img-responsive img-centered" alt="">
-                            <p>Website that I designed for an independent record label with two other Berkeley classmates. I managed bookings and production sessions. Our Youtube channel <a href="https://www.youtube.com/c/CaliforniaRecords">(https://www.youtube.com/c/CaliforniaRecords)</a>has recorded 250,000 views and 1,700 subscribers. </p>
-                            <ul class="list-inline item-details">
-                                <li>Link:
-                                    <strong><a href="http://californiarecords.herokuapp.com">http://californiarecords.herokuapp.com</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-     <footer class="text-center">
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+			</div>
+		</nav>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+		<!-- Navigation end -->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+		<!-- Intro section start -->
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
+		<section id="intro" class="section">
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+			<div class="container">
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/freelancer.js"></script>
+				<div class="row">
 
-    <script type="text/javascript">
-        $(".music-player-btn").click(function () { 
-            $(".music-player").append("<iframe id='embed' width='300px' height='95px' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/186489078&amp;color=ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_artwork=false&amp;'></iframe>");
-            $(".music-player").append("<button style='color:black' type='button'class='close'>×</button>");
-            $(".close").click(function() {
-                $("#embed").remove();
-                $(".close").remove();
-            });
-        });
-    </script>
+					<div class="col-md-12">
+
+						<div class="hello wow bounceInDown">
+							<h1>Hi, I'm Jeff</h1>
+							<h3><span class="rotate">Front-End Developer. | Android Programmer.| Music Producer</span></h3>
+						</div>
+
+						<a href="#profile">
+							<div class="mouse-icon">
+								<div class="wheel"></div>
+							</div>
+						</a>
+
+					</div>
+
+				</div><!-- .row -->
+
+			</div><!-- .container -->
+
+		</section>
+
+		<!-- Intro section end -->
+
+		<!-- Profile section start -->
+
+		<section id="profile" class="section">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-12 headline wow bounceInDown">
+						<h2>Jeff Zheng</h2>
+						<p>Front-End Developer. Android Programmer. Music Producer.</p>
+						<hr>
+					</div>
+
+					<div class="col-md-3 col-sm-6 wow bounceInLeft">
+						<img class="avatar hidden-xs" src="assets/images/photo.jpg" alt=""
+						style="width:100%; height:100%" >
+						<div>
+							<br>
+						</div>
+						<div class="profile-widget text-center">
+							<h3>Social Profiles</h3>
+							<ul class="widget-social">
+								<li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a target="_blank" href="http://github.com/jeffzheng1"><i class="fa fa-github-alt"></i></a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/in/jeffzheng"><i class="fa fa-linkedin"></i></a></li>
+								<li><a target="_blank" href="http://soundcloud.com/jeff-zheng"><i class="fa fa-soundcloud"></i></a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 wow bounceInUp text-center">
+
+						<div class="profile-widget">
+							<h3>Skillset</h3>
+
+							<h5>UX Design</h5>
+							<div class="skill-bar">
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-off"></div>
+							</div>
+
+							<h5>HTML / CSS</h5>
+							<div class="skill-bar">
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-off"></div>
+							</div>
+
+							<h5>Javascript / jQuery</h5>
+							<div class="skill-bar">
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-off"></div>
+							</div>
+							<h5>Android</h5>
+							<div class="skill-bar">
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-off"></div>
+								<div class="skill-rate-off"></div>
+							</div>
+							<h5>Python</h5>
+							<div class="skill-bar">
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-off"></div>
+								<div class="skill-rate-off"></div>
+							</div>
+							<h5>Java</h5>
+							<div class="skill-bar">
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-off"></div>
+								<div class="skill-rate-off"></div>
+							</div>
+						</div>
+
+
+					</div><!-- .col-md-3 -->
+
+					<div class="col-md-6 col-sm-12 wow bounceInRight">
+						<h3 class="text-center">About Me</h3>
+						<p>Hi! My name is Jeff and I am a student at UC Berkeley pursuing a degree in Computer Science and Statistics. I love messing around with web and mobile design and hacking things to see what happens. I am currently developing a dashboard to collect information about Indian citizen-government interaction and an Android application to improve the efficiency of private gardens. 
+						<p>I produce electronic music and am interested in creating software to auto-mix dance music. Check out my Soundcloud linked on the left! I've also grown a new fascination with cosmology after binge watching The Cosmos; part of my website is dedicated to some truly awesome pictures of our universe.</p>
+						<p>This site was built using a template from <a target="_blank" href="https://wrapbootstrap.com/"><b>Wrapbootrap</b></a>. If you like this website and want to build something similar, I definitely would recommend browsing their selection of Bootstrap templates.</p>
+					</div>
+
+				</div><!-- .row -->
+				<div class="row wow bounceInUp">
+					<div class="col-md-offset-3 col-md-6">
+					<h3 class="text-center">Contact Me</h3>
+						<div class="text-center">
+							<div class="row">
+								<div class="profile-item col-md-6">
+									<i class="fa fa-envelope-o"></i>
+									<h5>jeff.zheng AT berkeley.edu</h5>
+								</div>
+								<div class="profile-item col-md-6">
+									<i class="fa fa-phone"></i>
+									<h5>(954)-670-3862</h5>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div><!-- .container -->
+
+		</section>
+
+		<div class="parallax-window" data-parallax="scroll" data-image-src="assets/images/helix.jpg"></div>
+
+		<!-- Resume section start -->
+
+		<section id="resume" class="section">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-12 headline">
+						<h2>Resume</h2>
+						<p>A short list of my education and experience. For my complete resume, please download the pdf below.</p>
+						<hr>
+					</div>
+
+				</div><!-- .row -->
+
+				<div class="row resume-items">
+
+					<div class="col-md-3">
+						<h3>Education</h3>
+					</div>
+
+					<div class="col-md-6 col-sm-8 resume-item">
+						<h4>B.A. in Computer Science &amp; Minor in Statistics</h4>
+						
+							<ul>
+								<li>CS61A (Python)</li>
+								<li>CS61B (Java/Data Structures)</li> 
+								<li>CS61C (C/MIPS/Machine Architecture)</li> 
+								<li>CS70 (Discrete Math &amp; Probability)</li> 
+								<li>CS164 (Compilers &amp;Programming Languages)</li>
+								<li>CS188 (Artificial Intelligence)</li>
+								<li>CS162 (Operating Systems)</li>
+								<li>CS170 (Algorithms)</li>
+								<li>STAT134 (Probability Analysis)</li>
+								<li>CogSci131 (Computational Models of Cognition)</li>
+							</ul>
+						
+						<hr class="hidden-xs">
+					</div>
+
+					<div class="col-md-3 col-sm-4 resume-place">
+						<h4><i class="fa fa-suitcase"></i>UC Berkeley</h4>
+						<i class="fa fa-calendar"></i> 2012 - 2017
+						<hr class="visible-xs">
+					</div>
+
+				</div><!-- .row -->
+
+				<div class="row resume-items">
+
+					<div class="col-md-3">
+						<h3>Experience</h3>
+					</div>
+
+					<div class="col-md-6 col-sm-8 resume-item">
+						<h4>Undergraduate Computer Science Researcher </h4>
+						<p>Member of the Bribecaster research group sponsored by the CS &amp; Public Policy Department. I coordinated research project with Professor Jennifer Bussell of Berkeley’s Public Policy Department to create a dashboard interface that tracked government corruption in India.</p>
+						<hr class="hidden-xs">
+					</div>
+
+					<div class="col-md-3 col-sm-4 resume-place">
+						<h4><i class="fa fa-suitcase"></i>UC Berkeley</h4>
+						<i class="fa fa-calendar"></i> 2014 - Present
+						<hr class="visible-xs">
+					</div>
+
+					<div class="col-md-6 col-md-offset-3 col-sm-8 resume-item">
+						<h4>Lab Assistant for CS61BL</h4>
+						<p>Provided course instruction and assisted students during labs in Berkeley’s data structures class.</p>
+						<hr class="hidden-xs">
+					</div>
+
+					<div class="col-md-3 col-sm-4 resume-place">
+						<h4><i class="fa fa-suitcase"></i> Berkeley</h4>
+						<i class="fa fa-calendar"></i> Summer 2014
+						<hr class="visible-xs">
+					</div>
+
+				</div><!-- .row -->
+
+				<div class="row">
+
+					<div class="col-md-6 col-md-offset-3">
+						<a target="_blank" href="assets/JeffZhengResume.pdf" class="btn btn-default btn-custom-2"><i class="fa fa-cloud-download  icon-before"></i> Download Resume</a>
+					</div>
+
+				</div><!-- .row -->
+
+			</div><!-- .container -->
+
+		</section>
+
+		<!-- Resume section end -->
+
+		<div class="parallax-window" data-parallax="scroll" data-image-src="assets/images/carina.jpg"></div>
+
+		<!-- Portfolio section start -->
+
+		<!-- Portfolio Grid Section -->
+	    <section id="portfolio" class="section">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-md-12 headline">
+	                    <h2>Projects</h2>
+	                    <p>Things I've built on the side. For more information, please follow the link to my
+						<a target="_blank" href="http://github.com/jeffzheng1"><i class="fa fa-github icon-before"></i>Github</a>
+	                    </p>
+	                    <hr>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-md-4 col-sm-6  portfolio-item">
+	                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+	                        <div class="portfolio-item-description">
+								<h3>Festiv</h3>
+							</div>
+	                        <img src="assets/images/portfolio/festiv.png" class="img-responsive" alt="">
+	                    </a>
+	                </div>
+	                <div class="col-md-4 col-sm-6  portfolio-item">
+	                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+	                        <div class="portfolio-item-description">
+								<h3>Beautiful Search Trees</h3>
+							</div>
+	                        <img src="assets/images/portfolio/bst.png" class="img-responsive" alt="">
+	                    </a>
+	                </div>
+	                <div class="col-md-4 col-sm-6 portfolio-item">
+	                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+	                        <div class="portfolio-item-description">
+								<h3>Bribecaster</h3>
+							</div>
+	                        <img src="assets/images/portfolio/bribecaster.png" class="img-responsive" alt="">
+	                    </a>
+	                </div>
+	                <div class="col-md-4 col-sm-6  portfolio-item">
+	                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+	                        <div class="portfolio-item-description">
+								<h3>Algovision</h3>
+							</div>
+	                        <img src="assets/images/portfolio/algovision.png" class="img-responsive" alt="">
+	                    </a>
+	                </div>
+	                <div class="col-md-4 col-sm-6  portfolio-item">
+	                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+	                        <div class="portfolio-item-description">
+								<h3>Seedit</h3>
+							</div>
+	                        <img style="height:225px; width:400px" src="assets/images/portfolio/seedit.png" class="img-responsive" alt="">
+	                    </a>
+	                </div>
+	                <div class="col-md-4 col-sm-6  portfolio-item">
+	                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+	                       	<div class="portfolio-item-description">
+								<h3>California Records</h3>
+							</div>
+	                        <img src="assets/images/portfolio/californiarecs.png" class="img-responsive" alt="">
+	                    </a>
+	                </div>
+	            </div>
+
+	        </div>
+	    </section>
+
+	    <div class="parallax-window" data-parallax="scroll" data-image-src="assets/images/universe.jpg"></div>
+
+	    <section class="section" id="music">
+	        <div class="container">
+	            <div class="row">
+	                <div class="row">
+		                <div class="col-md-12 headline">
+		                    <h2>Music</h2>
+		                    <p>Things I've produced or collaborated on.</p>
+		                    <hr>
+		                </div>
+		                <div class="col-md-4 col-xs-12 text-center">
+		                    <iframe width="350px" height="300px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/135575669&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		                </div>
+		                <div class="col-md-4 col-xs-12 text-center">
+		                    <iframe width="350px" height="300px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/96489186&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		                </div>
+		                <div class="col-md-4 col-xs-12 text-center">
+		                    <iframe width="350px" height="300px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/82416294&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		                </div>
+		                </div>
+	            </div>
+	        </div>
+	    </section>
+
+		<!-- Portfolio section end -->
+
+		<!-- Portfolio Modals -->
+	    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+	        <div class="modal-content">
+	            <div class="close-modal" data-dismiss="modal">
+	                <div class="lr">
+	                    <div class="rl">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-lg-8 col-lg-offset-2">
+	                        <div class="modal-body">
+	                            <h2>Festiv</h2>
+	                            <hr class="star-primary">
+	                            <img src="assets/images/portfolio/festiv.png" class="img-responsive img-centered" alt="">
+	                            <p>Festiv is a web application I developed that uses SoundCloud’s API to deliver EDM music to users without the hassle of searching through albums or playlists by using curated playlists and learning user preferences. I deployed the site using Django and mySQL.</p>
+	                            <ul class="list-inline item-details">
+	                                <li>Demo:
+	                                    <strong><a href="http://festiv.me" target="_blank">http://festiv.me</a>
+	                                    </strong>
+	                                </li>
+	                                <li>Repo:
+	                                    <strong><a href="http://github.com/jeffzheng1/Festiv" target="_blank">http://github.com/jeffzheng1/Festiv</a>
+	                                    </strong>
+	                                </li>
+	                            </ul>
+	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+	        <div class="modal-content">
+	            <div class="close-modal" data-dismiss="modal">
+	                <div class="lr">
+	                    <div class="rl">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-lg-8 col-lg-offset-2">
+	                        <div class="modal-body">
+	                            <h2>Beautiful Search Trees</h2>
+	                            <hr class="star-primary">
+	                            <img src="assets/images/portfolio/bst.png" class="img-responsive img-centered" alt="">
+	                            <p>Web application I developed to help students learn the insertion, deletion, and search methods of popular tree data structures through animation done in D3.</p>
+	                            <ul class="list-inline item-details">
+	                                <li>Demo:
+	                                    <strong><a href="http://beautifulsearchtrees.herokuapp.com" target="_blank">http://beautifulsearchtrees.herokuapp.com</a>
+	                                    </strong>
+	                                </li>
+	                                <li>Repo:
+	                                    <strong><a href="http://github.com/jeffzheng1/BeautifulSearchTrees" target="_blank">http://github.com/jeffzheng1/BeautifulSearchTrees</a>
+	                                    </strong>
+	                                </li>
+	                            </ul>
+	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+	        <div class="modal-content">
+	            <div class="close-modal" data-dismiss="modal">
+	                <div class="lr">
+	                    <div class="rl">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-lg-8 col-lg-offset-2">
+	                        <div class="modal-body">
+	                            <h2>Bribecaster</h2>
+	                            <hr class="star-primary">
+	                            <img src="assets/images/portfolio/bribecaster.png" class="img-responsive img-centered" alt="">
+	                            <p>The dashboard in development for my CS research project. I created back-end models for storing citizen data and developed a dashboard interface using various data visualization packages. I created a communications network using Twilio to send robocalls and SMS messages to collect citizen information.</p>
+	                            <ul class="list-inline item-details">
+	                                <li>Repo:
+	                                    <strong><a href="http://github.com/jeffzheng1/Bribecaster" target="_blank">http://github.com/jeffzheng1/Bribecaster</a>
+	                                    </strong>
+	                                </li>
+	                            </ul>
+	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+	        <div class="modal-content">
+	            <div class="close-modal" data-dismiss="modal">
+	                <div class="lr">
+	                    <div class="rl">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-lg-8 col-lg-offset-2">
+	                        <div class="modal-body">
+	                            <h2>Algovision &amp; the 164 Language</h2>
+	                            <hr class="star-primary">
+	                            <img src="assets/images/portfolio/algovision.png" class="img-responsive img-centered" alt="">
+	                            <p>Web application that I built that visualizes the call stack of algorithms written in 164, an object oriented computer language my team created throughout the Fall 2014 semester for my programming language class. It uses the Wolfram API to analyze the approximate runtime of a function from the structure of the call stack and plots the runtime function on a graph. </p>
+	                            <ul class="list-inline item-details">
+	                                <li>Repo:
+	                                    <strong><a href="http://github.com/jeffzheng1/algovision" target="_blank">http://github.com/jeffzheng1/algovision</a>
+	                                    </strong>
+	                                </li>
+	                                <li>Video Demo:
+	                                    <strong><a href="https://www.youtube.com/watch?v=--89RYkMaCA" target="_blank">http://www.youtube.com/</a>
+	                                    </strong>
+	                                </li>
+	                            </ul>
+	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+	        <div class="modal-content">
+	            <div class="close-modal" data-dismiss="modal">
+	                <div class="lr">
+	                    <div class="rl">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-lg-8 col-lg-offset-2">
+	                        <div class="modal-body">
+	                            <h2>SeedIt</h2>
+	                            <hr class="star-primary">
+	                            <img src="assets/images/portfolio/seedit.png" class="img-responsive img-centered" alt="">
+	                            <p>An Android gardening application in development for the Citris Mobile App Challenge. Users receive customized recommendations based on location, time, and weather to optimize their harvest. I am leading the production of the application and am responsible for developing the backend models for the app’s plant database and designing the app’s user interface.</p>
+	                            <ul class="list-inline item-details">
+	                            	<li>Link:
+	                                    <strong><a href="http://getseedit.com" target="_blank">http://getseedit.com</a>
+	                                    </strong>
+	                                </li>
+	                            </ul>
+	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+	        <div class="modal-content">
+	            <div class="close-modal" data-dismiss="modal">
+	                <div class="lr">
+	                    <div class="rl">
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-lg-8 col-lg-offset-2">
+	                        <div class="modal-body">
+	                            <h2>California Records</h2>
+	                            <hr class="star-primary">
+	                            <img src="assets/images/portfolio/californiarecs.png" class="img-responsive img-centered" alt="">
+	                            <p>Website that I designed for an independent record label with two other Berkeley classmates. I managed bookings and production sessions. Our Youtube channel <a href="https://www.youtube.com/c/CaliforniaRecords">(https://www.youtube.com/c/CaliforniaRecords)</a>has recorded 250,000 views and 1,700 subscribers. </p>
+	                            <ul class="list-inline item-details">
+	                                <li>Link:
+	                                    <strong><a href="http://californiarecords.herokuapp.com" target="_blank">http://californiarecords.herokuapp.com</a>
+	                                    </strong>
+	                                </li>
+	                            </ul>
+	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+
+	</div><!-- .wrapper -->
+
+	<!-- Javascript files -->
+	<!-- jQuery -->
+	<script src="assets/js/jquery-1.11.0.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Background slider -->
+	<script src="assets/js/jquery.backstretch.min.js"></script>
+	<!-- OwlCarousel -->
+	<!-- Modal for portfolio -->
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<!-- Text rotator -->
+	<script src="assets/js/jquery.simple-text-rotator.min.js"></script>
+	<!-- Waypoints -->
+	<script src="assets/js/jquery.waypoints.js"></script>
+	<!-- CountTo  -->
+	<script src="assets/js/jquery.countTo.js"></script>
+	<!-- WOW - Reveal Animations When You Scroll -->
+	<script src="assets/js/wow.min.js"></script>   
+	<!-- Smooth scroll -->
+	<script src="assets/js/smoothscroll.js"></script>
+	<!-- Custom scripts -->
+	<script src="assets/js/custom.js"></script>
+	<script src="assets/js/parallax.min.js"></script>
+
 
 </body>
-
 </html>
