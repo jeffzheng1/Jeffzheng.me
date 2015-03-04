@@ -767,6 +767,7 @@ h3 > .fa {
 .parallax-window {
 	width:100%;
     min-height: 400px;
+    max-height: 500px;
     background: transparent;
 }
 
